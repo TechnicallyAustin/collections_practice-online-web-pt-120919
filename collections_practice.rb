@@ -14,9 +14,13 @@ def swap_elements (array)
   #takes an argument of an array
   #swaps the 2nd and 3rd element in an array 
   array[1], array[2] = array[2], array[1]
+  return array
 end
 
 def reverse_array(array)
+  new_arr = array.reverse
+  return new_arr
+  
   #takes an argument of an array of integers
   #reveres the order in the array
   #Returns a copy of the array
@@ -26,11 +30,18 @@ def kesha_maker (array)
   #takes an argument of an array
   #replaces the 3rd character in each string with a $!
   #uses the .each methoed to iterate and build a newe array to Return like the my each lab
+  new_arr
+  array.each do |i|
+    word_arr = i.split(" ")
+    word_arr[2] << "$"
+    word_arr.join
 end
 
-def find_a
+def find_a(array)
+  array.start_with?("a")
   #takes an argument of an array
   #returns all the strings within the array that start with the letter a 
+  
 end
 
 def sum_array(array)
@@ -40,10 +51,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |i| 
-  while i != array[1] do 
-  i = "#{i}s"
-  end
+
 end
   #takes an argument of an array 
   #adds an s to each word in the array, excluding the second element
