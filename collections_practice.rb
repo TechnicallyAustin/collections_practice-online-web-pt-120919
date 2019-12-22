@@ -55,6 +55,8 @@ def add_s(array)
 array.collect do |i| 
   if i != array[1]
    "#{i}s"
+  elsif i == array[1]
+  "#{i}"
 end
 end
 end
