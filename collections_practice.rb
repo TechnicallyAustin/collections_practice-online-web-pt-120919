@@ -30,7 +30,8 @@ require 'pry'
 def kesha_maker (array)
   new_arr =[]
   array.each do |i|
-    word_arr = i.slice(", ")
+    add_dolla = 
+    
    
 def find_a(array)
   array.select { |i| i.start_with?("a")}
