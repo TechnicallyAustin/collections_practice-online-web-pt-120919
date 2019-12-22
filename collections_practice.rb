@@ -36,7 +36,7 @@ def kesha_maker (array)
     word_arr[2] << "$"
     new_arr << word_arr.join
 end
-new_arr
+return new_arr
 end
 
 def find_a(array)
