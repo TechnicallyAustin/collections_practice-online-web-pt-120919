@@ -26,13 +26,14 @@ def reverse_array(array)
   #Returns a copy of the array
 end
 
-
+require 'pry'
 def kesha_maker (array)
   new_arr =[]
   array.each do |i|
     word_arr = i.split(", ")
     word_arr[2] = "$"
     new_arr << word_arr.join
+    binding.pry
     end
     new_arr
     end
