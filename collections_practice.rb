@@ -51,7 +51,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+array.collect do |i| 
+  if i != array[1]
+  new_arr << "#{i}s"
+end
+end
 end
   #takes an argument of an array 
   #adds an s to each word in the array, excluding the second element
