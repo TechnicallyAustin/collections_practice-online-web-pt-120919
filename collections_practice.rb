@@ -54,7 +54,7 @@ def add_s(array)
   new_arr = []
 array.collect do |i| 
   if i != array[1]
-  new_arr << "#{i}s"
+   "#{i}s"
 end
 end
 end
