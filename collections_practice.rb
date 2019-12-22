@@ -34,6 +34,7 @@ def kesha_maker (array)
     word_arr = i.split(" ")
     word_arr[2] << "$"
     word_arr.join
+    return word_arr
 end
 
 def find_a(array)
