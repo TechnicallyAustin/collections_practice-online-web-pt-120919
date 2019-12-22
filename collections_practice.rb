@@ -44,6 +44,7 @@ def find_a(array)
 end
 
 def sum_array(array)
+  total = 0 
   array.collect { |i| total += i }
   total
   #takes the argument of an array
