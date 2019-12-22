@@ -45,6 +45,7 @@ end
 
 def sum_array(array)
   array.collect { |i| total += i }
+  total
   #takes the argument of an array
   #adds all integers in an array and returns the sum.
 end
