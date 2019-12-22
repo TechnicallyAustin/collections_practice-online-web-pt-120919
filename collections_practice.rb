@@ -30,11 +30,12 @@ def kesha_maker (array)
   #takes an argument of an array
   #replaces the 3rd character in each string with a $!
   #uses the .each methoed to iterate and build a newe array to Return like the my each lab
+ new_arr = []
   array.each do |i|
     word_arr = i.split(" ")
     word_arr[2] << "$"
-    word_arr.join
-    word_arr
+    new_arr << word_arr.join
+    new_arr
 end
 
 def find_a(array)
