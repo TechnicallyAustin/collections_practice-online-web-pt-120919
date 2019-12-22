@@ -31,7 +31,7 @@ def kesha_maker (array)
   array.each do |i|
     word_arr = i.split(" ")
     word_arr[2] << "$"
-    new_arr << word_arr.join
+    new_arr << "#{word_arr.join}"
 end
 return new_arr
 end
