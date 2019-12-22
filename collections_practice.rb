@@ -27,9 +27,6 @@ def reverse_array(array)
 end
 
 def kesha_maker (array)
-  #takes an argument of an array
-  #replaces the 3rd character in each string with a $!
-  #uses the .each methoed to iterate and build a newe array to Return like the my each lab
  new_arr = []
   array.each do |i|
     word_arr = i.split(" ")
@@ -57,4 +54,3 @@ def add_s(array)
 end
   #takes an argument of an array 
   #adds an s to each word in the array, excluding the second element
-end
