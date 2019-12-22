@@ -38,7 +38,7 @@ def kesha_maker (array)
 end
 
 def find_a(array)
-  array.select { |i| i.start_with?("a")
+  array.select { |i| i.start_with?("a")}
   #takes an argument of an array
   #returns all the strings within the array that start with the letter a 
   
